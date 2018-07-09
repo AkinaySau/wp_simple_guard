@@ -1,0 +1,24 @@
+{
+	"name": "sau/wp_simple_guard",
+	"description": "Simple guard for admin panel ",
+	"minimum-stability": "stable",
+	"license": "proprietary",
+	"version": "1.0.0",
+	"authors": [
+		{
+			"name": "Akinay Sau",
+			"email": "akinaysau@gmail.com",
+			"role": "Developer",
+			"homepage": "http://a-sau.ru"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Sau\\WP\\SimpleGuard\\": "/src"
+		},
+		"files": [
+			"composer_commands.php",
+			"simple_guard.php"
+		]
+	}
+}
