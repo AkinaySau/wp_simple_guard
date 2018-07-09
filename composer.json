@@ -3,7 +3,7 @@
 	"description": "Simple guard for admin panel.",
 	"minimum-stability": "stable",
 	"license": "proprietary",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"authors": [
 		{
 			"name": "Akinay Sau",
