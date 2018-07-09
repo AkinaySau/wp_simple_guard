@@ -49,7 +49,7 @@ class AdminGetParamGuardian extends Guardian {
 	 */
 	public function guard() {
 		add_action( 'login_enqueue_scripts', function () {
-			if ( array_key_exists( $this->param, $_GET ) ) {
+			if ( empty($this->param) || array_key_exists( $this->param, $_GET ) ) {
 				setcookie( SConst::COOKIES_AGP, true, 0, '/wp-admin/' );
 			} else {
 				wp_redirect( site_url() );
