@@ -1,9 +1,9 @@
 {
 	"name": "sau/wp_simple_guard",
-	"description": "Simple guard for admin panel ",
+	"description": "Simple guard for admin panel.",
 	"minimum-stability": "stable",
 	"license": "proprietary",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"authors": [
 		{
 			"name": "Akinay Sau",
